@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>제주 리넷 | 제주 폐그물 100% 재활용 소재</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff;--tx:#0b2530;--mu:#5b7480;--ln:#dbe5e9;--ac:#0b6e82;--sec:#eef4f6;--nv:#06222b;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1519;--tx:#e8f1f3;--mu:#8fa9b2;--ln:#1f343b;--ac:#4fc3d4;--sec:#0f1e23}}
+:root[data-theme="dark"]{--bg:#0a1519;--tx:#e8f1f3;--mu:#8fa9b2;--ln:#1f343b;--ac:#4fc3d4;--sec:#0f1e23}
+html{scroll-behavior:smooth;scroll-padding-top:calc(70px + env(safe-area-inset-top,0px))}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:"Noto Sans KR",system-ui,-apple-system,"Malgun Gothic",sans-serif;line-height:1.7;word-break:keep-all}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--nv);z-index:60}
+a{color:inherit;text-decoration:none}
+.w{max-width:1160px;margin:0 auto;padding:0 24px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--nv);color:#fff}
+.hb{display:flex;align-items:center;justify-content:space-between;height:66px}
+.logo{font-weight:900;font-size:19px;letter-spacing:1px}
+nav{display:flex;gap:6px;font-size:14px;font-weight:500}
+.dd{position:relative}.dd>a{display:block;padding:22px 14px}
+.dd>div{display:none;position:absolute;top:100%;left:0;min-width:170px;background:var(--nv);padding:8px;border-radius:0 0 10px 10px;border:1px solid rgba(255,255,255,.12);border-top:0}
+.dd:hover>div,.dd:focus-within>div{display:block}
+.dd>div a{display:block;padding:8px 12px;border-radius:6px;opacity:.85}.dd>div a:hover{background:rgba(255,255,255,.1);opacity:1}
+.btn{display:inline-block;padding:12px 26px;border-radius:4px;background:#fff;color:var(--nv);font:700 14px "Noto Sans KR",sans-serif;border:1.5px solid #fff;cursor:pointer}
+.btn.ol{background:transparent;color:inherit;border-color:currentColor}
+.btn.dk{background:var(--tx);color:var(--bg);border-color:var(--tx)}
+.hc{padding:8px 18px;font-size:13px}
+.mb{display:none;background:none;border:0;color:#fff;font-size:24px;cursor:pointer}
+@media(max-width:900px){.mb{display:block}.hc{display:none}
+nav{display:none;position:absolute;top:100%;left:0;right:0;background:var(--nv);flex-direction:column;padding:8px 24px 18px}nav.o{display:flex}
+.dd>a{padding:12px 0}.dd>div{display:none!important}}
+.lb{font-size:12px;font-weight:700;letter-spacing:2.5px;color:var(--ac);text-transform:uppercase}
+.hero{background:repeating-linear-gradient(45deg,rgba(255,255,255,.04) 0 1px,transparent 1px 28px),repeating-linear-gradient(-45deg,rgba(255,255,255,.04) 0 1px,transparent 1px 28px),linear-gradient(170deg,#04181f,#0a4a5a 70%,#12798b);color:#fff;padding:110px 0 90px}
+.hero .lb{color:#7fd6e3}
+.hero h1{font-size:clamp(38px,7vw,84px);line-height:1.12;font-weight:900;letter-spacing:-2.5px;margin:16px 0 22px}
+.hero p{max-width:540px;font-size:18px;opacity:.88;margin:0 0 32px}
+.ctr{margin-top:70px;border-top:1px solid rgba(255,255,255,.2);padding-top:22px;display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.ctr b{font-size:clamp(40px,7vw,76px);font-weight:900;letter-spacing:-2px;line-height:1}.ctr span{opacity:.8;font-size:14px}
+section{padding:96px 0}
+.alt{background:var(--sec)}
+h2{font-size:clamp(28px,4.4vw,48px);line-height:1.2;font-weight:900;letter-spacing:-1.5px;margin:12px 0 16px}
+.lead{color:var(--mu);font-size:17px;max-width:600px;margin:0}
+.feat{display:grid;grid-template-columns:1.2fr 1fr;border-radius:16px;overflow:hidden;background:var(--nv);color:#fff;margin-top:-50px;position:relative}
+.feat .im{min-height:260px}.feat div.tx{padding:38px}
+.feat h3{font-size:26px;line-height:1.3;margin:10px 0 12px}.feat p{opacity:.85;font-size:15px;margin:0 0 22px}
+.im{background:repeating-linear-gradient(45deg,rgba(255,255,255,.08) 0 1px,transparent 1px 24px),repeating-linear-gradient(-45deg,rgba(255,255,255,.08) 0 1px,transparent 1px 24px),linear-gradient(150deg,#0a6a7c,#1ba0b2);display:grid;place-items:center;color:rgba(255,255,255,.85);font-size:13px;border-radius:16px}
+.feat .im{border-radius:0}
+@media(max-width:800px){.feat{grid-template-columns:1fr;margin-top:-40px}}
+.g4{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:0;margin-top:48px;border-top:1px solid var(--ln)}
+.g4>div{padding:28px 24px 28px 0;border-bottom:1px solid var(--ln)}
+.g4 i{font-style:normal;display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--ac);color:#fff;font-size:15px;margin-bottom:14px}
+.g4 h3{margin:0 0 6px;font-size:18px}.g4 p{margin:0;color:var(--mu);font-size:14px}
+.sp{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.sp .im{min-height:380px}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0 28px}.chips span{border:1px solid var(--ln);border-radius:999px;padding:6px 16px;font-size:14px}
+@media(max-width:800px){.sp{grid-template-columns:1fr;gap:32px}.sp .im{min-height:240px}}
+.hw{display:grid;grid-template-columns:1fr 1.4fr;gap:56px}
+.hw .stk{position:sticky;top:110px;align-self:start}
+.stp{display:flex;gap:22px;padding:24px 0;border-bottom:1px solid var(--ln)}
+.stp b{font-size:40px;font-weight:900;color:var(--ac);line-height:1;min-width:56px}
+.stp h3{margin:0 0 4px;font-size:20px}.stp p{margin:0;color:var(--mu);font-size:15px}
+@media(max-width:800px){.hw{grid-template-columns:1fr;gap:24px}.hw .stk{position:static}}
+.stats{background:linear-gradient(170deg,#06222b,#0a5566);color:#fff;padding:72px 0}
+.sg{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:32px;margin-top:36px}
+.sg b{display:block;font-size:clamp(40px,6vw,68px);font-weight:900;line-height:1.1;letter-spacing:-2px}.sg span{opacity:.82;font-size:14px}
+.stats .lb{color:#7fd6e3}
+.lg{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin:40px 0 32px}
+.lg div{height:84px;border:1px dashed var(--ln);border-radius:10px;display:grid;place-items:center;color:var(--mu);font-size:12px;font-weight:700;background:var(--bg)}
+details{border-bottom:1px solid var(--ln);padding:20px 0}
+summary{cursor:pointer;font-weight:700;font-size:18px;list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::after{content:"+";color:var(--ac);font-size:24px;line-height:1}details[open] summary::after{content:"−"}
+summary::-webkit-details-marker{display:none}
+details p{color:var(--mu);margin:12px 0 0;max-width:720px;font-size:15px}
+.nx{display:block;background:var(--nv);color:#fff;padding:72px 0}
+.nx .w{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.nx small{opacity:.7;letter-spacing:2px;font-weight:700}.nx h3{font-size:clamp(26px,4vw,44px);margin:6px 0;font-weight:900}.nx p{margin:0;opacity:.8}
+.nx .ar{font-size:44px;transition:transform .2s}.nx:hover .ar{transform:translateX(8px)}
+footer{background:#04181f;color:#fff;padding:60px 0 40px;font-size:14px}
+.fg{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px}
+footer h4{margin:0 0 12px;font-size:13px;letter-spacing:1.5px;opacity:.6}footer a{display:block;opacity:.85;padding:3px 0}
+.loc{margin-top:36px;padding-top:20px;border-top:1px solid rgba(255,255,255,.15);opacity:.65;font-size:13px}
+@media(max-width:800px){.fg{grid-template-columns:1fr 1fr}}
+.ck{position:fixed;left:16px;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));max-width:560px;background:var(--nv);color:#fff;border-radius:12px;padding:16px 18px;font-size:13px;z-index:70;box-shadow:0 8px 30px rgba(0,0,0,.35);display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.ck p{margin:0;flex:1 1 220px}.ck .btn{padding:8px 14px;font-size:12px}
+</style>
+</head>
+<body>
+<header><div class="w hb">
+<a class="logo" href="#top">JEJU RENET<sup style="font-size:9px">®</sup></a>
+<nav id="nv">
+<div class="dd"><a href="#material">소재</a><div><a href="#material">원사</a><a href="#material">펠릿</a><a href="#material">성형품</a></div></div>
+<div class="dd"><a href="#how">공정</a><div><a href="#how">수거</a><a href="#how">가공</a><a href="#how">이력 추적</a></div></div>
+<div class="dd"><a href="#partners">파트너</a><div><a href="#partners">브랜드 파트너</a><a href="#partners">소재 파트너</a><a href="#partners">수거 파트너</a></div></div>
+<div class="dd"><a href="#impact">임팩트</a><div><a href="#impact">사람</a><a href="#impact">환경</a><a href="#impact">성과</a></div></div>
+<div class="dd"><a href="#about">회사 소개</a><div><a href="#about">스토리</a><a href="#about">팀</a><a href="#about">프로젝트</a><a href="#about">비전</a></div></div>
+</nav>
+<a class="btn hc" href="#contact">문의하기</a>
+<button class="mb" id="mb" aria-label="메뉴">☰</button>
+</div></header>
+
+<main id="top">
+<div class="hero"><div class="w">
+<div class="lb">JEJU RECYCLED NET MATERIAL</div>
+<h1>제주의 폐그물,<br>새로운 소재가 되다</h1>
+<p>제주 바다에서 수거한 폐그물 100%로 만든 재생 소재. 이력이 추적되는 순환 소재로 브랜드의 소재 프로그램을 한 단계 끌어올리세요.</p>
+<a class="btn" href="#material">소재 알아보기</a> <a class="btn ol" href="#contact">파트너십 문의</a>
+<div class="ctr"><b data-n="120000" data-s="">0</b><span>kg 폐그물 재활용 완료 (샘플 수치)</span></div>
+</div></div>
+
+<div class="w"><div class="feat">
+<div class="im">브랜드 협업 이미지</div>
+<div class="tx"><div class="lb" style="color:#7fd6e3">PARTNER STORY</div><h3>제주 폐그물이 만든 첫 번째 컬렉션</h3><p>협업 브랜드 사례를 소개합니다. 사용된 소재 길이, 재활용된 폐그물 무게 등 수치를 함께 보여줍니다.</p><a class="btn" href="#partners">사례 보기</a></div>
+</div></div>
+
+<section><div class="w">
+<div class="lb">THE DIFFERENCE</div>
+<h2>제주 소재가 다른 이유</h2>
+<p class="lead">제주 바다에서 수거한 폐그물만을 원료로, 해양 플라스틱 문제를 줄이고 어촌과 함께 성장하는 소재입니다.</p>
+<div class="g4">
+<div><i>✓</i><h3>100% 재활용 폐그물</h3><p>사용 후 버려진 어망만을 원료로 합니다.</p></div>
+<div><i>✓</i><h3>완전한 이력 추적</h3><p>수거 지점부터 완제품까지 추적합니다.</p></div>
+<div><i>✓</i><h3>어촌 공동체 상생</h3><p>수거 활동이 지역 소득으로 이어집니다.</p></div>
+<div><i>✓</i><h3>해양 생태계 보호</h3><p>바다에 남는 폐어구를 줄입니다.</p></div>
+</div></div></section>
+
+<section class="alt" id="material"><div class="w sp">
+<div class="im">소재 이미지</div>
+<div>
+<div class="lb">NET MATERIAL</div>
+<h2>폐그물에서 완제품까지</h2>
+<p class="lead">버려진 폐그물에 새 삶을 주는 고품질 소재. 의류용 원사부터 성형 부품까지 다양한 용도로 확장할 수 있습니다.</p>
+<div class="chips"><span>원사·원단</span><span>재생 펠릿</span><span>성형품</span><span>맞춤 개발</span></div>
+<a class="btn dk" href="#contact">소재 문의하기</a>
+</div></div></section>
+
+<section id="how"><div class="w hw">
+<div class="stk"><div class="lb">HOW IT WORKS</div><h2>한 장의 그물에서<br>시작하는 변화</h2><p class="lead">제주 어촌과 함께 폐그물을 순환 구조로 전환합니다.</p></div>
+<div>
+<div class="stp"><b>01</b><div><h3>수거</h3><p>제주 어촌·수협과 협력해 수명을 다한 그물을 수거합니다.</p></div></div>
+<div class="stp"><b>02</b><div><h3>선별·세척</h3><p>이물질을 제거하고 재질별로 분류·파쇄·포장합니다.</p></div></div>
+<div class="stp"><b>03</b><div><h3>재활용</h3><p>파쇄한 그물을 재생 펠릿으로 만듭니다.</p></div></div>
+<div class="stp"><b>04</b><div><h3>방사</h3><p>재생 펠릿을 고품질 원사로 뽑아냅니다.</p></div></div>
+<div class="stp"><b>05</b><div><h3>직조·성형</h3><p>원사를 원단이나 성형품 등 다양한 소재로 가공합니다.</p></div></div>
+<div class="stp"><b>06</b><div><h3>지역 환원</h3><p>수익의 일부를 어촌과 환경 프로젝트에 환원합니다.</p></div></div>
+</div></div></section>
+
+<div class="stats"><div class="w">
+<div class="lb">OUR PROGRAM AT A GLANCE</div>
+<div class="sg">
+<div><b data-n="120" data-s="t+">0</b><span>2024년 이후 수거한 폐그물 (샘플)</span></div>
+<div><b data-n="12" data-s="곳">0</b><span>협력 어촌·마을</span></div>
+<div><b data-n="25" data-s="개사">0</b><span>소재를 사용하는 파트너</span></div>
+</div></div></div>
+
+<section id="partners"><div class="w">
+<div class="lb">BRAND PARTNERS</div>
+<h2>함께 만드는 브랜드</h2>
+<p class="lead">제주 소재로 제품을 새롭게 해석하는 혁신적인 브랜드들과 함께합니다.</p>
+<div class="lg"><div>LOGO</div><div>LOGO</div><div>LOGO</div><div>LOGO</div><div>LOGO</div><div>LOGO</div></div>
+<a class="btn dk" href="#contact">파트너 되기</a>
+</div></section>
+
+<section class="alt" id="impact"><div class="w sp">
+<div>
+<div class="lb">IMPACT</div>
+<h2>사람과 바다에<br>모두 이로운 순환</h2>
+<p class="lead">폐그물 수거는 해양 오염을 줄이는 데서 그치지 않고, 어촌 일자리와 환경단체 후원으로 이어집니다.</p>
+<div class="chips"><span>사람</span><span>환경</span><span>성과 리포트</span></div>
+<a class="btn dk" href="#about">임팩트 보기</a>
+</div>
+<div class="im">임팩트 이미지</div>
+</div></section>
+
+<section id="about"><div class="w">
+<div class="lb">FAQ</div><h2>자주 묻는 질문</h2>
+<div style="margin-top:28px;border-top:1px solid var(--ln)">
+<details><summary>제주 리넷은 언제 시작했나요?</summary><p>설립 연도와 계기를 여기에 입력합니다. (가안)</p></details>
+<details><summary>어떤 폐그물을 원료로 쓰나요?</summary><p>제주 어촌에서 수거한 사용 후 어망을 선별해 사용합니다. 재질과 종류를 상세히 안내합니다. (가안)</p></details>
+<details><summary>최소 주문 수량이 있나요?</summary><p>소재 종류별 최소 주문량과 리드타임을 안내합니다. (가안)</p></details>
+<details><summary>인증이나 이력 증빙을 받을 수 있나요?</summary><p>재활용 인증서와 이력 추적 자료를 제공합니다. (가안)</p></details>
+<details><summary>샘플을 받아볼 수 있나요?</summary><p>문의하기에서 샘플을 요청해 주세요. (가안)</p></details>
+</div></div></section>
+
+<a class="nx" id="contact" href="mailto:info@example.com"><div class="w">
+<div><small>NEXT UP</small><h3>함께 시작해볼까요?</h3><p>샘플 요청, 견적, 협업 제안을 환영합니다. info@example.com</p></div>
+<div class="ar">→</div>
+</div></a>
+</main>
+
+<footer><div class="w">
+<div class="fg">
+<div><b style="font-size:18px">JEJU RENET®</b><p style="opacity:.7;margin:10px 0 0">제주 폐그물 100% 재활용 소재</p></div>
+<div><h4>소재</h4><a href="#material">원사·원단</a><a href="#material">재생 펠릿</a><a href="#material">성형품</a></div>
+<div><h4>회사</h4><a href="#how">공정</a><a href="#partners">파트너</a><a href="#impact">임팩트</a></div>
+<div><h4>문의</h4><a href="mailto:info@example.com">info@example.com</a><a href="#">개인정보처리방침</a></div>
+</div>
+<div class="loc">본사 · 제주특별자치도 ○○시 ○○로 00 &nbsp;|&nbsp; 수거 거점 · 제주 ○○ · ○○ · ○○<br>© 2026 제주 리넷. All rights reserved.</div>
+</div></footer>
+
+<div class="ck" id="ck"><p>사이트 운영과 분석을 위해 쿠키를 사용합니다. 자세한 내용은 개인정보처리방침을 확인하세요.</p><button class="btn ol" onclick="ck.remove()">필수만 허용</button><button class="btn" onclick="ck.remove()">모두 허용</button></div>
+
+<script>
+var nv=document.getElementById("nv");
+document.getElementById("mb").onclick=function(){nv.classList.toggle("o")};
+nv.onclick=function(e){if(e.target.tagName==="A")nv.classList.remove("o")};
+var io=new IntersectionObserver(function(es){es.forEach(function(e){
+  if(!e.isIntersecting)return;io.unobserve(e.target);
+  var el=e.target,n=+el.dataset.n,s=el.dataset.s,t0=performance.now();
+  (function f(t){var p=Math.min((t-t0)/1600,1);el.textContent=Math.round(n*p).toLocaleString("en-US")+(p===1?s:"");if(p<1)requestAnimationFrame(f)})(t0);
+})},{threshold:.4});
+document.querySelectorAll("[data-n]").forEach(function(el){io.observe(el)});
+</script>
+</body>
+</html>
